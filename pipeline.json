@@ -1,0 +1,18 @@
+[
+	{
+        "id":1,
+		"type":"",
+		"pipelineName":"",
+		"timeStamp":"",
+		"status":true,
+		"statusperecntage":""
+	},
+    {
+        "id":2,
+		"type":"",
+		"pipelineName":"",
+		"timeStamp":"",
+		"status":true,
+		"statusperecntage":""
+	}
+]
