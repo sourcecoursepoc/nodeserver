@@ -1,4 +1,4 @@
-const schemasData = require("./schems.json");
+const tableData = require("./table.json");
 const container1 = require("./container1.json");
 const container2 = require("./container2.json");
 const item2 = require("./container2.json");
@@ -25,16 +25,16 @@ app.listen(port, () => `Server running on port ${port}`);
 //   console.log(req);
 // });
 
-app.get("/schemas", function (req, res, next) {
+app.get("/tables", function (req, res, next) {
   // console.log(req.query.id);
-  if (req.query.id == 10001) {
-    res.send(container1);
-  } else if (req.query.id == 10002) {
-    res.send(container2);
-  }
-  if (!req.query.id) {
-    res.send(schemasData);
-  }
+  // if (req.query.id == 10001) {
+  //   res.send(container1);
+  // } else if (req.query.id == 10002) {
+  //   res.send(container2);
+  // }
+  // if (!req.query.id) {
+  res.send(tableData);
+  // }
 });
 app.get("/projects", function (req, res, next) {
   res.send(projectsData);

@@ -1,0 +1,96 @@
+[
+	{
+		"DBName": "DB Name 1",
+		"Tables":[
+			{
+				"tableName" : "Name",
+				"columns":[
+					{
+						"name": "Name",
+						"type": "Type",
+						"isPrimary": true,
+						"unique": true,
+						"nullable": false,
+						"consumed": "<true/false (false by default) or Count - Default 0. Increment by whenever it is consumed>",
+						"consumers": [
+							"TargetTable1.ColumnName1",
+							"TargetTable2.ColumnName2"
+						],
+						"dataQuality":{
+							"score":"<Score after checking column value quality>",
+							"description":"<Brief note on the score>"
+						}
+					},
+					{
+						"name": "Name",
+						"type": "Type",
+						"isPrimary": false,
+						"unique": false,
+						"nullable": true,
+						"consumed": "true/false (false by default) or Count - Default 0. Increment by whenever it is consumed",
+						"consumers": [
+							"TargetTable3.ColumnName3"
+						],
+						"dataQuality":{
+							"score":"<Score after checking column value quality>",
+							"description":"<Brief note on the score>"
+						}
+					}
+				],
+				"rowCount" : 100000,
+				"size":"100MB",
+				"mindate": "Get Minimum date from date column if it's date field",
+				"maxdate": "Get Maximum date from date column if it's date field",
+				"yoycount":"Row count per Year",
+				"momcount":"Row count per Month&Year"
+			}	
+		]
+	},
+	{
+		"DBName": "DB Name 2",
+		"Tables":[
+			{
+				"tableName" : "Name",
+				"columns":[
+					{
+						"name": "Name",
+						"type": "Type",
+						"isPrimary": true,
+						"unique": true,
+						"nullable": false,
+						"consumed": "<true/false (false by default) or Count - Default 0. Increment by whenever it is consumed>",
+						"consumers": [
+							"TargetTable1.ColumnName1",
+							"TargetTable2.ColumnName2"
+						],
+						"dataQuality":{
+							"score":"<Score after checking column value quality>",
+							"description":"<Brief note on the score>"
+						}
+					},
+					{
+						"name": "Name",
+						"type": "Type",
+						"isPrimary": false,
+						"unique": false,
+						"nullable": true,
+						"consumed": "true/false (false by default) or Count - Default 0. Increment by whenever it is consumed",
+						"consumers": [
+							"TargetTable3.ColumnName3"
+						],
+						"dataQuality":{
+							"score":"<Score after checking column value quality>",
+							"description":"<Brief note on the score>"
+						}
+					}
+				],
+				"rowCount" : 100000,
+				"size":"100MB",
+				"mindate": "Get Minimum date from date column if it's date field",
+				"maxdate": "Get Maximum date from date column if it's date field",
+				"yoycount":"Row count per Year",
+				"momcount":"Row count per Month/Year"
+			}	
+		]
+	}
+]
