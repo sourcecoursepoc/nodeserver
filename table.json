@@ -1,96 +1,63 @@
 [
-	{
-		"DBName": "DB Name 1",
-		"Tables":[
-			{
-				"tableName" : "Name",
-				"columns":[
-					{
-						"name": "Name",
-						"type": "Type",
-						"isPrimary": true,
-						"unique": true,
-						"nullable": false,
-						"consumed": "<true/false (false by default) or Count - Default 0. Increment by whenever it is consumed>",
-						"consumers": [
-							"TargetTable1.ColumnName1",
-							"TargetTable2.ColumnName2"
-						],
-						"dataQuality":{
-							"score":"<Score after checking column value quality>",
-							"description":"<Brief note on the score>"
-						}
-					},
-					{
-						"name": "Name",
-						"type": "Type",
-						"isPrimary": false,
-						"unique": false,
-						"nullable": true,
-						"consumed": "true/false (false by default) or Count - Default 0. Increment by whenever it is consumed",
-						"consumers": [
-							"TargetTable3.ColumnName3"
-						],
-						"dataQuality":{
-							"score":"<Score after checking column value quality>",
-							"description":"<Brief note on the score>"
-						}
-					}
-				],
-				"rowCount" : 100000,
-				"size":"100MB",
-				"mindate": "Get Minimum date from date column if it's date field",
-				"maxdate": "Get Maximum date from date column if it's date field",
-				"yoycount":"Row count per Year",
-				"momcount":"Row count per Month&Year"
-			}	
-		]
-	},
-	{
-		"DBName": "DB Name 2",
-		"Tables":[
-			{
-				"tableName" : "Name",
-				"columns":[
-					{
-						"name": "Name",
-						"type": "Type",
-						"isPrimary": true,
-						"unique": true,
-						"nullable": false,
-						"consumed": "<true/false (false by default) or Count - Default 0. Increment by whenever it is consumed>",
-						"consumers": [
-							"TargetTable1.ColumnName1",
-							"TargetTable2.ColumnName2"
-						],
-						"dataQuality":{
-							"score":"<Score after checking column value quality>",
-							"description":"<Brief note on the score>"
-						}
-					},
-					{
-						"name": "Name",
-						"type": "Type",
-						"isPrimary": false,
-						"unique": false,
-						"nullable": true,
-						"consumed": "true/false (false by default) or Count - Default 0. Increment by whenever it is consumed",
-						"consumers": [
-							"TargetTable3.ColumnName3"
-						],
-						"dataQuality":{
-							"score":"<Score after checking column value quality>",
-							"description":"<Brief note on the score>"
-						}
-					}
-				],
-				"rowCount" : 100000,
-				"size":"100MB",
-				"mindate": "Get Minimum date from date column if it's date field",
-				"maxdate": "Get Maximum date from date column if it's date field",
-				"yoycount":"Row count per Year",
-				"momcount":"Row count per Month/Year"
-			}	
-		]
-	}
+  {
+    "DBName": "DB Name 1",
+    "uid": "DB-<unique-uuid>",
+    "description": "<DB Description>",
+    "metadata": {
+      "status": "<Status-Online>",
+      "region": "Region",
+      "totalTables": "<Total Tables>",
+      "size": "10GB"
+    },
+    "Tables": [
+      {
+        "tableName": "Name 1",
+        "uid": "TBL-<unique-uuid>",
+        "description": "<Table Description>",
+        "metadata": {
+          "rowCount": 100000,
+          "size": "100MB",
+          "mindate": "Get Minimum date from date column if it's date field",
+          "maxdate": "Get Maximum date from date column if it's date field",
+          "yoycount": "Row count per Year",
+          "momcount": "Row count per Month&Year"
+        },
+        "tags": [
+          "tag1",
+          "tag2"
+        ],
+        "columns": [
+          {
+            "name": "Name 1",
+            "description": "<Column Description>",
+            "uid": "COL-<unique-uuid>",
+            "metadata": {
+              "type": "Type",
+              "isPrimary": true,
+              "unique": true,
+              "nullable": false,
+              "defaultValue": ""
+            },
+            "tags": [
+              "tag1",
+              "tag2"
+            ],
+            "report": {
+              "consumption": {
+                "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
+                "consumers": [
+                  "target-table-uid",
+                  "target-table-column-uid"
+                ]
+              },
+              "dataQuality": {
+                "score": "<Score after checking column value quality>",
+                "description": "<Brief note on the score>"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
 ]
