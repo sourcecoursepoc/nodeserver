@@ -1,9 +1,10 @@
 const tableData = require("./table.json");
-const groupData = require("./groupData.json");
 const container2 = require("./container2.json");
 const item2 = require("./container2.json");
 const projectsData = require("./projects.json");
 const pipelineData = require("./pipeline.json");
+const groupData=require("./groupData.json");
+const composepipeline=require("./composepipeline.json");
 
 // Requiring module
 const express = require("express");
@@ -39,3 +40,11 @@ app.get("/projects", function (req, res, next) {
 app.get("/pipeline", function (req, res, next) {
   res.send(pipelineData);
 });
+
+app.get("/groupData",function(req,res,next){
+  res.send(groupData);
+})
+
+app.get("/composepipeline",function(req,res,next){
+  res.send(composepipeline);
+})

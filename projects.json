@@ -1,29 +1,73 @@
 [
-   {"totalSchemas": 354,
-   "projects":
-  [{
-     "projectId":"1",
-     "projectName":"Sams Migration",
-	 "projectDesc":"Sams Migration project to transfer data from Walmart to DataLake",
-     "projectDetails":{"schema":12,
-     "groups":68,
-	 "users":5,
-	 "initialLoad":36,
-	 "sync":32
-   }
-   
-  },
   {
-     "projectId":"2",
-     "projectName":"Pricing Migration",
-	 "projectDesc":"Pricing Migration project to transfer data to target system",
-     "projectDetails":{"schema":12,
-     "groups":68,
-	 "users":5,
-	 "initialLoad":36,
-	 "sync":32
+    "totalSchemas": 354,
+
+    "projects": [
+      {
+        "projectId": "1",
+
+        "projectName": "Sams Migration",
+
+        "projectDesc": "Sams Migration project to transfer data from Walmart to DataLake",
+
+        "projectDetails": {
+          "schema": 12,
+
+          "groups": 68,
+
+          "users": 5,
+
+          "initialLoad": 36,
+
+          "sync": 32
+        },
+
+        "schemas": [12, 13, 14]
+      },
+
+      {
+        "projectId": "2",
+
+        "projectName": "Pricing Migration",
+
+        "projectDesc": "Pricing Migration project to transfer data to target system",
+
+        "projectDetails": {
+          "schema": 12,
+
+          "groups": 34,
+
+          "users": 5,
+
+          "initialLoad": 36,
+
+          "sync": 32
+        },
+
+        "schemas": [12, 13, 14]
+      },
+
+      {
+        "projectId": "3",
+
+        "projectName": "sams Buisiness Model",
+
+        "projectDesc": "sams Buisiness Model descriptions",
+
+        "projectDetails": {
+          "schema": "12",
+
+          "groups": 34,
+
+          "users": 5,
+
+          "initialLoad": 36,
+
+          "sync": 32
+        },
+
+        "schemas": [12, 13, 14]
+      }
+    ]
   }
-  }]
-  }
-  
 ]

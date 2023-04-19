@@ -1,165 +1,238 @@
 [
+ {
+  "Tables": [
     {
-      "Tables": [
+      "tableName": "ITEM",
+      "uid": "TBL-<unique-uuid2b>",
+      "description": "<Table Description>",
+      "metadata": {
+        "rowCount": "76723",
+        "size": "100MB",
+        "mindate": "12/20/2022",
+        "maxdate": "20/12/2023",
+        "yoycount": "5000",
+        "momcount": "100000"
+      },
+      "tags": ["tag1", "tag2"],
+      "columns": [
         {
-          "tableName": " Table Name 1",
-          "uid": "TBL-<unique-uuid>",
-          "description": "<Table Description>",
+          "name": "id",
+          "type":"Number",
+          "description": "<Column Description656>",
+          "uid": "COL-<unique-uuid123j>",
           "metadata": {
-            "rowCount": 100000,
-            "size": "100MB",
-            "mindate": "Get Minimum date from date column if it's date field",
-            "maxdate": "Get Maximum date from date column if it's date field",
-            "yoycount": "Row count per Year",
-            "momcount": "Row count per Month&Year"
+            "type": "Primary Key",
+            "isPrimary": "true",
+            "unique": "yes",
+            "nullable": "not nullable",
+            "defaultValue": "default value11",
+            "suffixValue":"suffix value11",
+            "prefixValue":"prefix value11",
+            "alias":"alias11",
+            "notes":"notes11"
           },
-          "tags": [
-            "tag1",
-            "tag2"
-          ],
-          "columns": [
-            {
-              "name": "Table1 Column Name 1",
-              "description": "<Column Description>",
-              "uid": "COL-<unique-uuid>",
-              "metadata": {
-                "type": "Type",
-                "isPrimary": true,
-                "unique": true,
-                "nullable": false,
-                "defaultValue": ""
-              },
-              "tags": [
-                "tag1",
-                "tag2"
-              ],
-              "report": {
-                "consumption": {
-                  "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
-                  "consumers": [
-                    "target-table-uid",
-                    "target-table-column-uid"
-                  ]
-                },
-                "dataQuality": {
-                  "score": "<Score after checking column value quality>",
-                  "description": "<Brief note on the score>"
-                }
-              }
+
+          "tags": ["tag1", "tag2"],
+
+          "report": {
+            "consumption": {
+              "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
+              "consumers": ["target-table-uid", "target-table-column-uid"]
             },
-            {
-              "name": " Table1 Column Name 2",
-              "description": "<Column Description>",
-              "uid": "COL-<unique-uuid-1>",
-              "metadata": {
-                "type": "Type",
-                "isPrimary": true,
-                "unique": true,
-                "nullable": false,
-                "defaultValue": ""
-              },
-              "tags": [
-                "tag1",
-                "tag2"
-              ],
-              "report": {
-                "consumption": {
-                  "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
-                  "consumers": [
-                    "target-table-uid",
-                    "target-table-column-uid"
-                  ]
-                },
-                "dataQuality": {
-                  "score": "<Score after checking column value quality>",
-                  "description": "<Brief note on the score>"
-                }
-              }
+            "dataQuality": {
+              "score": "<Score after checking column value quality>",
+              "description": "<Brief note on the score>"
             }
-          ]
+          }
+        },
+
+        {
+          "name": "name",
+          "type":"String",
+          "description": "<Column Description>",
+          "uid": "COL-<unique-uuid1276>",
+          "metadata": {
+            "type": "column",
+            "isPrimary": "false",
+            "unique": "yes",
+            "nullable": "not nullable",
+           "defaultValue": "default value",
+           "suffixValue":"suffix value",
+           "prefixValue":"prefix value",
+           "alias":"alias",
+           "notes":"notes"
+          },
+          "tags": ["tag1", "tag2"],
+          "report": {
+            "consumption": {
+              "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
+              "consumers": ["target-table-uid", "target-table-column-uid"]
+            },
+            "dataQuality": {
+              "score": "<Score after checking column value quality>",
+              "description": "<Brief note on the score>"
+            }
+          }
+        },
+
+        {
+          "name": "status",
+          "type":"String",
+          "description": "<Column Description>",
+          "uid": "COL-<unique-7615>",
+          "metadata": {
+            "type": "column",
+            "isPrimary": "false",
+            "unique": "yes",
+            "nullable": "not nullable",
+            "defaultValue": "default value",
+            "suffixValue":"suffix value",
+            "prefixValue":"prefix value",
+            "alias":"alias",
+            "notes":"notes"
+          },
+
+          "tags": ["tag1", "tag2"],
+          "report": {
+            "consumption": {
+              "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
+              "consumers": ["target-table-uid", "target-table-column-uid"]
+            },
+            "dataQuality": {
+              "score": "<Score after checking column value quality>",
+              "description": "<Brief note on the score>"
+            }
+          }
+        },
+
+        {
+          "name": "company",
+          "type":"String",
+          "description": "<Column Description>",
+          "uid": "COL-<ujsgds>",
+          "metadata": {
+            "type": "column",
+            "isPrimary": "false",
+            "unique": "yes",
+            "nullable": "not nullable",
+            "defaultValue": "default value",
+            "suffixValue":"suffix value",
+            "prefixValue":"prefix value",
+            "alias":"alias",
+            "notes":"notes"
+          },
+
+          "tags": ["tag1", "tag2"],
+          "report": {
+            "consumption": {
+              "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
+              "consumers": ["target-table-uid", "target-table-column-uid"]
+            },
+            "dataQuality": {
+              "score": "<Score after checking column value quality>",
+              "description": "<Brief note on the score>"
+            }
+          }
         }
       ]
     },
+
     {
-      
-        "Tables": [
-          {
-            "tableName": " Table Name 2",
-            "uid": "TBL-<unique-uuid-1>",
-            "description": "<Table Description>",
-            "metadata": {
-              "rowCount": 100000,
-              "size": "100MB",
-              "mindate": "Get Minimum date from date column if it's date field",
-              "maxdate": "Get Maximum date from date column if it's date field",
-              "yoycount": "Row count per Year",
-              "momcount": "Row count per Month&Year"
+      "tableName": "ITEM_DETAILS",
+      "uid": "TBL-<unique-uuid3nb>",
+      "description": "<Table Description>",
+      "metadata": {
+        "rowCount": "46723",
+        "size": "100MB",
+        "mindate": "10/03/2022",
+        "maxdate": "20/02/2023",
+        "yoycount": "400",
+        "momcount": "363"
+      },
+
+      "tags": ["tag1", "tag2"],
+
+      "columns": [
+        {
+          "name": "id",
+          "type":"Number",
+          "description": "<Column Description>",
+          "uid": "COL-<unique-uuidSA>",
+          "metadata": {
+            "type": "Primary Key",
+            "isPrimary": "true",
+            "unique": "true",
+            "nullable": "false",
+            "defaultValue": "default value",
+            "suffixValue":"suffix value",
+            "prefixValue":"prefix value",
+            "alias":"alias",
+            "notes":"notes"
+          },
+
+          "tags": ["tag1", "tag2"],
+          "report": {
+            "consumption": {
+              "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
+              "consumers": ["target-table-uid", "target-table-column-uid"]
             },
-            "tags": [
-              "tag1",
-              "tag2"
-            ],
-            "columns": [
-              {
-                "name": "Table2 Column Name 1",
-                "description": "<Column Description>",
-                "uid": "COL-<unique-uuid-11>",
-                "metadata": {
-                  "type": "Type",
-                  "isPrimary": true,
-                  "unique": true,
-                  "nullable": false,
-                  "defaultValue": ""
-                },
-                "tags": [
-                  "tag1",
-                  "tag2"
-                ],
-                "report": {
-                  "consumption": {
-                    "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
-                    "consumers": [
-                      "target-table-uid",
-                      "target-table-column-uid"
-                    ]
-                  },
-                  "dataQuality": {
-                    "score": "<Score after checking column value quality>",
-                    "description": "<Brief note on the score>"
-                  }
-                }
-              },
-              {
-                "name": " Table2 Column Name 2",
-                "description": "<Column Description>",
-                "uid": "COL-<unique-uuid-22>",
-                "metadata": {
-                  "type": "Type",
-                  "isPrimary": true,
-                  "unique": true,
-                  "nullable": false,
-                  "defaultValue": ""
-                },
-                "tags": [
-                  "tag1",
-                  "tag2"
-                ],
-                "report": {
-                  "consumption": {
-                    "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
-                    "consumers": [
-                      "target-table-uid",
-                      "target-table-column-uid"
-                    ]
-                  },
-                  "dataQuality": {
-                    "score": "<Score after checking column value quality>",
-                    "description": "<Brief note on the score>"
-                  }
-                }
-              }
-            ]
+
+            "dataQuality": {
+              "score": "<Score after checking column value quality>",
+              "description": "<Brief note on the score>"
+            }
           }
-        ]
-      }
+        }
+      ]
+    },
+
+    {
+      "tableName": "ITEM_METADATA",
+      "uid": "TBL-<unique-uuid4nv>",
+      "description": "<Table Description>",
+      "metadata": {
+        "rowCount": "50000",
+        "size": "100MB",
+        "mindate": "01/02/2022",
+        "maxdate": "07/09/2023",
+        "yoycount": "10000",
+        "momcount": "50000"
+      },
+
+      "tags": ["tag1", "tag2"],
+      "columns": [
+        {
+          "name": "id",
+          "type":"Number",
+          "description": "<Column Description>",
+          "uid": "COL-<unique-uuid78jhhcg>",
+          "metadata": {
+            "type": "Primary Key",
+            "isPrimary": "true",
+            "unique": "true",
+            "nullable": "false",
+            "defaultValue": "default value",
+            "suffixValue":"suffix value",
+            "prefixValue":"prefix value",
+            "alias":"alias",
+            "notes":"notes"
+          },
+
+          "tags": ["tag1", "tag2"],
+          "report": {
+            "consumption": {
+              "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
+              "consumers": ["target-table-uid", "target-table-column-uid"]
+            },
+
+            "dataQuality": {
+              "score": "<Score after checking column value quality>",
+              "description": "<Brief note on the score>"
+            }
+          }
+        }
+      ]
+    }
+  ]
+ }
   ]

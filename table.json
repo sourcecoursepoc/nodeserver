@@ -1,227 +1,879 @@
 [
+
   {
-    "DBName": "DB Name 1",
-    "uid": "DB-<unique-uuid>1",
-    "description": "<DB Description>",
-    "metadata": {
-      "status": "<Status-Online>",
-      "region": "Region",
-      "totalTables": "<Total Tables>",
-      "size": "10GB"
-    },
-    "Tables": [
-      {
-        "tableName": "Table 1",
-        "uid": "TBL-<unique-uuid>1",
-        "description": "<Table Description>",
-        "metadata": {
-          "rowCount": 100000,
-          "size": "100MB",
-          "mindate": "Get Minimum date from date column if it's date field",
-          "maxdate": "Get Maximum date from date column if it's date field",
-          "yoycount": "Row count per Year",
-          "momcount": "Row count per Month&Year"
-        },
-        "tags": [
-          "tag1",
-          "tag2"
-        ],
-        "columns": [
-          {
-            "name": "column1",
-            "description": "<Column Description>",
-            "uid": "COL-<unique-uuid>1",
-            "metadata": {
-              "type": "Type",
-              "isPrimary": true,
-              "unique": true,
-              "nullable": false,
-              "defaultValue": ""
-            },
-            "tags": [
-              "tag1",
-              "tag2"
-            ],
-            "report": {
-              "consumption": {
-                "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
-                "consumers": [
-                  "target-table-uid",
-                  "target-table-column-uid"
-                ]
-              },
-              "dataQuality": {
-                "score": "<Score after checking column value quality>",
-                "description": "<Brief note on the score>"
-              }
-            }
-          },
-          {
-            "name": "column2",
-            "description": "<Column Description>",
-            "uid": "COL-<unique-uuid>2",
-            "metadata": {
-              "type": "Type",
-              "isPrimary": true,
-              "unique": true,
-              "nullable": "false",
-              "defaultValue": ""
-            },
-            "tags": [
-              "tag1",
-              "tag2"
-            ],
-            "report": {
-              "consumption": {
-                "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
-                "consumers": [
-                  "target-table-uid",
-                  "target-table-column-uid"
-                ]
-              },
-              "dataQuality": {
-                "score": "<Score after checking column value quality>",
-                "description": "<Brief note on the score>"
-              }
-            }
-          },
-          {
-            "name": "column3",
-            "description": "<Column Description>3",
-            "uid": "COL-<unique-uuid>",
-            "metadata": {
-              "type": "Type",
-              "isPrimary": "true",
-              "unique": true,
-              "nullable": "false",
-              "defaultValue": ""
-            },
-            "tags": [
-              "tag1",
-              "tag2"
-            ],
-            "report": {
-              "consumption": {
-                "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
-                "consumers": [
-                  "target-table-uid",
-                  "target-table-column-uid"
-                ]
-              },
-              "dataQuality": {
-                "score": "<Score after checking column value quality>",
-                "description": "<Brief note on the score>"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "tableName": "Table 2",
-        "uid": "TBL-<unique-uuid>2",
-        "description": "<Table Description>",
-        "metadata": {
-          "rowCount": 100000,
-          "size": "100MB",
-          "mindate": "Get Minimum date from date column if it's date field",
-          "maxdate": "Get Maximum date from date column if it's date field",
-          "yoycount": "Row count per Year",
-          "momcount": "Row count per Month&Year"
-        },
-        "tags": [
-          "tag1",
-          "tag2"
-        ],
-        "columns": [
-          {
-            "name": "column12",
-            "description": "<Column Description>",
-            "uid": "COL-<unique-uuid>12",
-            "metadata": {
-              "type": "Type",
-              "isPrimary": true,
-              "unique": true,
-              "nullable": false,
-              "defaultValue": ""
-            },
-            "tags": [
-              "tag1",
-              "tag2"
-            ],
-            "report": {
-              "consumption": {
-                "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
-                "consumers": [
-                  "target-table-uid",
-                  "target-table-column-uid"
-                ]
-              },
-              "dataQuality": {
-                "score": "<Score after checking column value quality>",
-                "description": "<Brief note on the score>"
-              }
-            }
-          },
-          {
-            "name": "column22",
-            "description": "<Column Description>",
-            "uid": "COL-<unique-uuid>22",
-            "metadata": {
-              "type": "Type",
-              "isPrimary": true,
-              "unique": true,
-              "nullable": "false",
-              "defaultValue": ""
-            },
-            "tags": [
-              "tag1",
-              "tag2"
-            ],
-            "report": {
-              "consumption": {
-                "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
-                "consumers": [
-                  "target-table-uid",
-                  "target-table-column-uid"
-                ]
-              },
-              "dataQuality": {
-                "score": "<Score after checking column value quality>",
-                "description": "<Brief note on the score>"
-              }
-            }
-          },
-          {
-            "name": "column33",
-            "description": "<Column Description>3",
-            "uid": "COL-<unique-uuid>3",
-            "metadata": {
-              "type": "Type",
-              "isPrimary": "true",
-              "unique": true,
-              "nullable": "false",
-              "defaultValue": ""
-            },
-            "tags": [
-              "tag1",
-              "tag2"
-            ],
-            "report": {
-              "consumption": {
-                "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
-                "consumers": [
-                  "target-table-uid",
-                  "target-table-column-uid"
-                ]
-              },
-              "dataQuality": {
-                "score": "<Score after checking column value quality>",
-                "description": "<Brief note on the score>"
-              }
-            }
-          }
-        ]
-      }
-    ]
+  
+  "DBName": "GENERAL",
+  
+  "uid": "DB-<unique-uuid1>",
+  
+  "description": "<DB Description>",
+  
+  "metadata": {
+  
+  "status": "<Status-Online>",
+  
+  "region": "Region",
+  
+  "totalTables": "<Total Tables>",
+  
+  "size": "10GB"
+  
+  },
+  
+  "Tables": [
+  
+  {
+  
+  "tableName": "ITEM",
+  
+  "uid": "TBL-<unique-uuid2b>",
+  
+  "description": "<Table Description>",
+  
+  "metadata": {
+  
+  "rowCount": 100000,
+  
+  "size": "100MB",
+  
+  "mindate": "12/12/2022",
+  
+  "maxdate": "02/02/2023",
+  
+  "yoycount": "23434",
+  
+  "momcount": "233424"
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ],
+  
+  "columns": [
+  
+  {
+  
+  "name": "id",
+  
+  "description": "<Column Description656>",
+  
+  "uid": "COL-<unique-uuid123j>",
+  
+  "metadata": {
+  
+  "type": "Primary Key",
+  
+  "isPrimary": true,
+  
+  "unique": true,
+  
+  "nullable": false,
+  
+  "defaultValue": ""
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ],
+  
+  "report": {
+  
+  "consumption": {
+  
+  "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
+  
+  "consumers": [
+  
+  "target-table-uid",
+  
+  "target-table-column-uid"
+  
+  ]
+  
+  },
+  
+  "dataQuality": {
+  
+  "score": "<Score after checking column value quality>",
+  
+  "description": "<Brief note on the score>"
+  
   }
-]
+  
+  }
+  
+  },
+  
+  {
+  
+  "name": "name",
+  
+  "description": "<Column Description>",
+  
+  "uid": "COL-<unique-uuid1276>",
+  
+  "metadata": {
+  
+  "type": "Column",
+  
+  "isPrimary": false,
+  
+  "unique": true,
+  
+  "nullable": false,
+  
+  "defaultValue": ""
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ],
+  
+  "report": {
+  
+  "consumption": {
+  
+  "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
+  
+  "consumers": [
+  
+  "target-table-uid",
+  
+  "target-table-column-uid"
+  
+  ]
+  
+  },
+  
+  "dataQuality": {
+  
+  "score": "<Score after checking column value quality>",
+  
+  "description": "<Brief note on the score>"
+  
+  }
+  
+  }
+  
+  },
+  
+  {
+  
+  "name": "Status",
+  
+  "description": "<Column Description>",
+  
+  "uid": "COL-<647-uuid1276>",
+  
+  "metadata": {
+  
+  "type": "Column",
+  
+  "isPrimary": false,
+  
+  "unique": true,
+  
+  "nullable": false,
+  
+  "defaultValue": ""
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ],
+  
+  "report": {
+  
+  "consumption": {
+  
+  "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
+  
+  "consumers": [
+  
+  "target-table-uid",
+  
+  "target-table-column-uid"
+  
+  ]
+  
+  },
+  
+  "dataQuality": {
+  
+  "score": "<Score after checking column value quality>",
+  
+  "description": "<Brief note on the score>"
+  
+  }
+  
+  }
+  
+  },
+  
+  {
+  
+  "name": "Company",
+  
+  "description": "<Column Description>",
+  
+  "uid": "COL-<647-7676>",
+  
+  "metadata": {
+  
+  "type": "Column",
+  
+  "isPrimary": false,
+  
+  "unique": true,
+  
+  "nullable": false,
+  
+  "defaultValue": ""
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ],
+  
+  "report": {
+  
+  "consumption": {
+  
+  "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
+  
+  "consumers": [
+  
+  "target-table-uid",
+  
+  "target-table-column-uid"
+  
+  ]
+  
+  },
+  
+  "dataQuality": {
+  
+  "score": "<Score after checking column value quality>",
+  
+  "description": "<Brief note on the score>"
+  
+  }
+  
+  }
+  
+  }
+  
+  ]
+  
+  },
+  
+  {
+  
+  "tableName": "ITEM_DETAILS",
+  
+  "uid": "TBL-<unique-uuid3nb>",
+  
+  "description": "<Table Description>",
+  
+  "metadata": {
+  
+  "rowCount": 100000,
+  
+  "size": "100MB",
+  
+  "mindate": "01/10/2023",
+  
+  "maxdate": "11/11/2024",
+  
+  "yoycount": "242433",
+  
+  "momcount": "234432"
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ],
+  
+  "columns": [
+  
+  {
+  
+  "name": "ITEM_DETAILS_1",
+  
+  "description": "<Column Description>",
+  
+  "uid": "COL-<unique-uuid978>",
+  
+  "metadata": {
+  
+  "type": "Primary Key",
+  
+  "isPrimary": true,
+  
+  "unique": true,
+  
+  "nullable": false,
+  
+  "defaultValue": ""
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ],
+  
+  "report": {
+  
+  "consumption": {
+  
+  "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
+  
+  "consumers": [
+  
+  "target-table-uid",
+  
+  "target-table-column-uid"
+  
+  ]
+  
+  },
+  
+  "dataQuality": {
+  
+  "score": "<Score after checking column value quality>",
+  
+  "description": "<Brief note on the score>"
+  
+  }
+  
+  }
+  
+  }
+  
+  ],
+  
+  "columns": [
+  
+  {
+  
+  "name": "ITEM_DETAILS_2",
+  
+  "description": "<Column Description46>",
+  
+  "uid": "COL-<unique-uuid243>",
+  
+  "metadata": {
+  
+  "type": "Primary Key",
+  
+  "isPrimary": true,
+  
+  "unique": true,
+  
+  "nullable": false,
+  
+  "defaultValue": ""
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ],
+  
+  "report": {
+  
+  "consumption": {
+  
+  "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
+  
+  "consumers": [
+  
+  "target-table-uid",
+  
+  "target-table-column-uid"
+  
+  ]
+  
+  },
+  
+  "dataQuality": {
+  
+  "score": "<Score after checking column value quality>",
+  
+  "description": "<Brief note on the score>"
+  
+  }
+  
+  }
+  
+  }
+  
+  ],
+  
+  "columns": [
+  
+  {
+  
+  "name": "ITEM_DETAILS_3",
+  
+  "description": "<Column Description>",
+  
+  "uid": "COL-<unique-uuidSA>",
+  
+  "metadata": {
+  
+  "type": "Type",
+  
+  "isPrimary": true,
+  
+  "unique": true,
+  
+  "nullable": false,
+  
+  "defaultValue": ""
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ],
+  
+  "report": {
+  
+  "consumption": {
+  
+  "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
+  
+  "consumers": [
+  
+  "target-table-uid",
+  
+  "target-table-column-uid"
+  
+  ]
+  
+  },
+  
+  "dataQuality": {
+  
+  "score": "<Score after checking column value quality>",
+  
+  "description": "<Brief note on the score>"
+  
+  }
+  
+  }
+  
+  }
+  
+  ]
+  
+  },
+  
+  {
+  
+  "tableName": "ITEM_METADATA",
+  
+  "uid": "TBL-<unique-uuid4nv>",
+  
+  "description": "<Table Description>",
+  
+  "metadata": {
+  
+  "rowCount": 100000,
+  
+  "size": "100MB",
+  
+  "mindate": "Get Minimum date from date column if it's date field",
+  
+  "maxdate": "Get Maximum date from date column if it's date field",
+  
+  "yoycount": "Row count per Year",
+  
+  "momcount": "Row count per Month&Year"
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ],
+  
+  "columns": [
+  
+  {
+  
+  "name": "ITEM_METADATA_1",
+  
+  "description": "<Column Description>",
+  
+  "uid": "COL-<unique-uuid78jhhcg>",
+  
+  "metadata": {
+  
+  "type": "Type",
+  
+  "isPrimary": true,
+  
+  "unique": true,
+  
+  "nullable": false,
+  
+  "defaultValue": ""
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ],
+  
+  "report": {
+  
+  "consumption": {
+  
+  "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
+  
+  "consumers": [
+  
+  "target-table-uid",
+  
+  "target-table-column-uid"
+  
+  ]
+  
+  },
+  
+  "dataQuality": {
+  
+  "score": "<Score after checking column value quality>",
+  
+  "description": "<Brief note on the score>"
+  
+  }
+  
+  }
+  
+  }
+  
+  ]
+  
+  }
+  
+  ]
+  
+  },
+  
+  {
+  
+  "DBName": "IN_WT_TABLES",
+  
+  "uid": "DB-<unique-uuid2>",
+  
+  "description": "<DB Description>",
+  
+  "metadata": {
+  
+  "status": "<Status-Online>",
+  
+  "region": "Region",
+  
+  "totalTables": "<Total Tables>",
+  
+  "size": "10GB"
+  
+  },
+  
+  "Tables": [
+  
+  {
+  
+  "tableName": "ITEM",
+  
+  "uid": "TBL-<unique-uuid31asf>",
+  
+  "description": "<Table Description>",
+  
+  "metadata": {
+  
+  "rowCount": 100000,
+  
+  "size": "100MB",
+  
+  "mindate": "Get Minimum date from date column if it's date field",
+  
+  "maxdate": "Get Maximum date from date column if it's date field",
+  
+  "yoycount": "Row count per Year",
+  
+  "momcount": "Row count per Month&Year"
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ]
+  
+  },
+  
+  {
+  
+  "tableName": "ITEM_DAILY_SALES",
+  
+  "uid": "TBL-<unique-uuid3qwe>",
+  
+  "description": "<Table Description>",
+  
+  "metadata": {
+  
+  "rowCount": 100000,
+  
+  "size": "100MB",
+  
+  "mindate": "Get Minimum date from date column if it's date field",
+  
+  "maxdate": "Get Maximum date from date column if it's date field",
+  
+  "yoycount": "Row count per Year",
+  
+  "momcount": "Row count per Month&Year"
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ]
+  
+  },
+  
+  {
+  
+  "tableName": "ITEM_DESC",
+  
+  "uid": "TBL-<unique-uuid32>YMJ",
+  
+  "description": "<Table Description>",
+  
+  "metadata": {
+  
+  "rowCount": 100000,
+  
+  "size": "100MB",
+  
+  "mindate": "Get Minimum date from date column if it's date field",
+  
+  "maxdate": "Get Maximum date from date column if it's date field",
+  
+  "yoycount": "Row count per Year",
+  
+  "momcount": "Row count per Month&Year"
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ]
+  
+  },
+  
+  {
+  
+  "tableName": "ITEM_DESIGNATION",
+  
+  "uid": "TBL-<unique-uuid33po>",
+  
+  "description": "<Table Description>",
+  
+  "metadata": {
+  
+  "rowCount": 100000,
+  
+  "size": "100MB",
+  
+  "mindate": "Get Minimum date from date column if it's date field",
+  
+  "maxdate": "Get Maximum date from date column if it's date field",
+  
+  "yoycount": "Row count per Year",
+  
+  "momcount": "Row count per Month&Year"
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ]
+  
+  },
+  
+  {
+  
+  "tableName": "ITEM_USER_ACCESS",
+  
+  "uid": "TBL-<unique-uuid3432>",
+  
+  "description": "<Table Description>",
+  
+  "metadata": {
+  
+  "rowCount": 100000,
+  
+  "size": "100MB",
+  
+  "mindate": "Get Minimum date from date column if it's date field",
+  
+  "maxdate": "Get Maximum date from date column if it's date field",
+  
+  "yoycount": "Row count per Year",
+  
+  "momcount": "Row count per Month&Year"
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ]
+  
+  },
+  
+  {
+  
+  "tableName": "ITEM_USER_ACCESS",
+  
+  "uid": "TBL-<unique-uuid35v>",
+  
+  "description": "<Table Description>",
+  
+  "metadata": {
+  
+  "rowCount": 100000,
+  
+  "size": "100MB",
+  
+  "mindate": "Get Minimum date from date column if it's date field",
+  
+  "maxdate": "Get Maximum date from date column if it's date field",
+  
+  "yoycount": "Row count per Year",
+  
+  "momcount": "Row count per Month&Year"
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ]
+  
+  },
+  
+  {
+  
+  "tableName": "ITEM_ACCESS_GROUP",
+  
+  "uid": "TBL-<unique-uuid36qe>",
+  
+  "description": "<Table Description111>",
+  
+  "metadata": {
+  
+  "rowCount": 100000,
+  
+  "size": "100MB",
+  
+  "mindate": "Get Minimum date from date column if it's date field",
+  
+  "maxdate": "Get Maximum date from date column if it's date field",
+  
+  "yoycount": "Row count per Year",
+  
+  "momcount": "Row count per Month&Year"
+  
+  },
+  
+  "tags": [
+  
+  "tag1",
+  
+  "tag2"
+  
+  ]
+  
+  }
+  
+  ]
+  
+  }
+  
+  ]
