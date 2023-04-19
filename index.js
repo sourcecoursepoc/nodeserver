@@ -5,6 +5,7 @@ const projectsData = require("./projects.json");
 const pipelineData = require("./pipeline.json");
 const groupData=require("./groupData.json");
 const composepipeline=require("./composepipeline.json");
+const recordData = require("./record.json");
 
 // Requiring module
 const express = require("express");
@@ -48,3 +49,6 @@ app.get("/groupData",function(req,res,next){
 app.get("/composepipeline",function(req,res,next){
   res.send(composepipeline);
 })
+app.get("/record", function (req, res, next) {
+  res.send(recordData);
+});

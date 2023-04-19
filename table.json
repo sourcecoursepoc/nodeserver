@@ -36,13 +36,13 @@
   
   "size": "100MB",
   
-  "mindate": "12/12/2022",
+  "mindate": "Get Minimum date from date column if it's date field",
   
-  "maxdate": "02/02/2023",
+  "maxdate": "Get Maximum date from date column if it's date field",
   
-  "yoycount": "23434",
+  "yoycount": "Row count per Year",
   
-  "momcount": "233424"
+  "momcount": "Row count per Month&Year"
   
   },
   
@@ -58,7 +58,7 @@
   
   {
   
-  "name": "id",
+  "name": "ITEM_1",
   
   "description": "<Column Description656>",
   
@@ -66,9 +66,9 @@
   
   "metadata": {
   
-  "type": "Primary Key",
+  "type": "Type",
   
-  "isPrimary": true,
+  "isPrimary": false,
   
   "unique": true,
   
@@ -116,7 +116,7 @@
   
   {
   
-  "name": "name",
+  "name": "ITEM_2",
   
   "description": "<Column Description>",
   
@@ -124,125 +124,9 @@
   
   "metadata": {
   
-  "type": "Column",
+  "type": "Type",
   
-  "isPrimary": false,
-  
-  "unique": true,
-  
-  "nullable": false,
-  
-  "defaultValue": ""
-  
-  },
-  
-  "tags": [
-  
-  "tag1",
-  
-  "tag2"
-  
-  ],
-  
-  "report": {
-  
-  "consumption": {
-  
-  "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
-  
-  "consumers": [
-  
-  "target-table-uid",
-  
-  "target-table-column-uid"
-  
-  ]
-  
-  },
-  
-  "dataQuality": {
-  
-  "score": "<Score after checking column value quality>",
-  
-  "description": "<Brief note on the score>"
-  
-  }
-  
-  }
-  
-  },
-  
-  {
-  
-  "name": "Status",
-  
-  "description": "<Column Description>",
-  
-  "uid": "COL-<647-uuid1276>",
-  
-  "metadata": {
-  
-  "type": "Column",
-  
-  "isPrimary": false,
-  
-  "unique": true,
-  
-  "nullable": false,
-  
-  "defaultValue": ""
-  
-  },
-  
-  "tags": [
-  
-  "tag1",
-  
-  "tag2"
-  
-  ],
-  
-  "report": {
-  
-  "consumption": {
-  
-  "count": "<Count - Default 0. Increment by 1 whenever it is consumed>",
-  
-  "consumers": [
-  
-  "target-table-uid",
-  
-  "target-table-column-uid"
-  
-  ]
-  
-  },
-  
-  "dataQuality": {
-  
-  "score": "<Score after checking column value quality>",
-  
-  "description": "<Brief note on the score>"
-  
-  }
-  
-  }
-  
-  },
-  
-  {
-  
-  "name": "Company",
-  
-  "description": "<Column Description>",
-  
-  "uid": "COL-<647-7676>",
-  
-  "metadata": {
-  
-  "type": "Column",
-  
-  "isPrimary": false,
+  "isPrimary": true,
   
   "unique": true,
   
@@ -306,13 +190,13 @@
   
   "size": "100MB",
   
-  "mindate": "01/10/2023",
+  "mindate": "Get Minimum date from date column if it's date field",
   
-  "maxdate": "11/11/2024",
+  "maxdate": "Get Maximum date from date column if it's date field",
   
-  "yoycount": "242433",
+  "yoycount": "Row count per Year",
   
-  "momcount": "234432"
+  "momcount": "Row count per Month&Year"
   
   },
   
@@ -336,7 +220,7 @@
   
   "metadata": {
   
-  "type": "Primary Key",
+  "type": "Type",
   
   "isPrimary": true,
   
@@ -398,7 +282,7 @@
   
   "metadata": {
   
-  "type": "Primary Key",
+  "type": "Type",
   
   "isPrimary": true,
   
