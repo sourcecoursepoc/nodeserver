@@ -1,0 +1,89 @@
+[
+  {
+    "projectId": "1",
+    "projectName": "Sams Migration",
+    "projectDesc": "Sams Migration project to transfer data from Walmart to DataLake",
+    "schemaCount": 12,
+    "groups": 68,
+    "users": 5,
+    "initialLoad": 36,
+    "sync": 32,
+    "schemas": [12, 13, 14],
+    "RecordsDetails": [
+      {
+        "migrated": 123321,
+        "pending": 234432
+      }
+    ],
+    "AttributeDetails": [
+      {
+        "migrated": 98,
+        "pending": 152
+      }
+    ],
+    "SizeDetails": [
+      {
+        "migrated": 172,
+        "pending": 234
+      }
+    ],
+    "PipelineExcecution": [
+      {
+        "initialLoad": 64,
+        "syncs": 10
+      }
+    ],
+    "PipelineStatus": [
+      {
+        "success": 84,
+        "error": 100
+      }
+    ],
+    "Item": [
+      {
+        "name": "Item",
+        "record1": 110000,
+        "record2": 150000
+      }
+    ],
+    "ItemDetails": [
+      {
+        "name": "Item Details",
+        "record1": 90000,
+        "record2": 170000
+      }
+    ],
+    "ItemDimension":[
+      {
+        "name": "Item Dimensions",
+        "record1": 40000,
+        "record2": 160000
+      }
+    ],
+    "Distributors":[
+      {
+        "name": "Distributors",
+        "record1": 40000,
+        "record2": 160000
+      }
+    ],
+    "Offers":[
+      {
+        "name": "Offers",
+        "record1": 40000,
+        "record2": 160000
+      }
+    ]
+  },
+  {
+    "projectId": "2",
+    "projectName": "Pricing Migration",
+    "projectDesc": "Pricing Migration project to transfer data to target system",
+    "schemaCount": 12,
+    "groups": 68,
+    "users": 5,
+    "initialLoad": 36,
+    "sync": 32,
+    "schemas": [12, 13, 14]
+  }
+]
