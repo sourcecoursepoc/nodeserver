@@ -1,98 +1,169 @@
 [
-	{
-        "id":1,
-		"type":"Initial Load",
-		"pipelineName":"Transform Initial Load",
-		"timeStamp":"",
-		"status":true,
-		"statusperecntage":""
-	},
-    {
-        "id":2,
-		"type":"Daily Sync",
-		"pipelineName":"Pricing Daily Sync",
-		"timeStamp":"",
-		"status":true,
-		"statusperecntage":""
-	},
-    {
-        "id":3,
-		"type":"Initial Load",
-		"pipelineName":"Sama's Initial Load",
-		"timeStamp":"",
-		"status":true,
-		"statusperecntage":""
-	},
-    {
-        "id":4,
-		"type":"Data Load",
-		"pipelineName":"Item Management Data Load",
-		"timeStamp":"",
-		"status":true,
-		"statusperecntage":""
-	},
-    {
-        "id":5,
-		"type":"Biweekly Load",
-		"pipelineName":"Transportation Biweekly Load",
-		"timeStamp":"",
-		"status":true,
-		"statusperecntage":""
-	},
-	{
-        "id":6,
-		"type":"Monthly Sync",
-		"pipelineName":"Samas Monthly Sync",
-		"timeStamp":"",
-		"status":true,
-		"statusperecntage":""
-	},
-    {
-        "id":7,
-		"type":"Initial Load",
-		"pipelineName":"Transom Initial Load",
-		"timeStamp":"",
-		"status":true,
-		"statusperecntage":""
-	},
-    {
-        "id":8,
-		"type":"Daily Sync",
-		"pipelineName":"Pricing Daily Sync",
-		"timeStamp":"",
-		"status":true,
-		"statusperecntage":""
-	},
-    {
-        "id":9,
-		"type":"Initial Load",
-		"pipelineName":"Samas Initial Load",
-		"timeStamp":"",
-		"status":true,
-		"statusperecntage":""
-	},
-    {
-        "id":10,
-		"type":"Data Load",
-		"pipelineName":"Item Management Data Load",
-		"timeStamp":"",
-		"status":true,
-		"statusperecntage":""
-	},
-	{
-        "id":11,
-		"type":"Biweekly Sync",
-		"pipelineName":"Transportation Biweekly Sync",
-		"timeStamp":"",
-		"status":true,
-		"statusperecntage":""
-	},
-    {
-        "id":12,
-		"type":"Monthly Sync",
-		"pipelineName":"Samas Monthly Sync",
-		"timeStamp":"",
-		"status":true,
-		"statusperecntage":""
-	}
+  {
+    "id": 1,
+
+    "type": "Initial Load",
+
+    "pipelineName": "Transform Initial Load",
+
+    "timeStamp": "",
+
+    "status": true,
+
+    "statusperecntage": "99"
+  },
+
+  {
+    "id": 2,
+
+    "type": "Daily Sync",
+
+    "pipelineName": "Pricing Daily Sync",
+
+    "timeStamp": "",
+
+    "status": true,
+
+    "statusperecntage": ""
+  },
+
+  {
+    "id": 3,
+
+    "type": "Initial Load",
+
+    "pipelineName": "Sama's Initial Load",
+
+    "timeStamp": "",
+
+    "status": true,
+
+    "statusperecntage": ""
+  },
+
+  {
+    "id": 4,
+
+    "type": "Data Load",
+
+    "pipelineName": "Item Management Data Load",
+
+    "timeStamp": "",
+
+    "status": true,
+
+    "statusperecntage": "88"
+  },
+
+  {
+    "id": 5,
+
+    "type": "Biweekly Load",
+
+    "pipelineName": "Transportation Biweekly Load",
+
+    "timeStamp": "",
+
+    "status": true,
+
+    "statusperecntage": ""
+  },
+
+  {
+    "id": 6,
+
+    "type": "Monthly Sync",
+
+    "pipelineName": "Samas Monthly Sync",
+
+    "timeStamp": "",
+
+    "status": true,
+
+    "statusperecntage": ""
+  },
+
+  {
+    "id": 7,
+
+    "type": "Initial Load",
+
+    "pipelineName": "Transom Initial Load",
+
+    "timeStamp": "",
+
+    "status": true,
+
+    "statusperecntage": "50"
+  },
+
+  {
+    "id": 8,
+
+    "type": "Daily Sync",
+
+    "pipelineName": "Pricing Daily Sync",
+
+    "timeStamp": "",
+
+    "status": true,
+
+    "statusperecntage": ""
+  },
+
+  {
+    "id": 9,
+
+    "type": "Initial Load",
+
+    "pipelineName": "Samas Initial Load",
+
+    "timeStamp": "",
+
+    "status": true,
+
+    "statusperecntage": "88"
+  },
+
+  {
+    "id": 10,
+
+    "type": "Data Load",
+
+    "pipelineName": "Item Management Data Load",
+
+    "timeStamp": "",
+
+    "status": true,
+
+    "statusperecntage": ""
+  },
+
+  {
+    "id": 11,
+
+    "type": "Biweekly Sync",
+
+    "pipelineName": "Transportation Biweekly Sync",
+
+    "timeStamp": "",
+
+    "status": true,
+
+    "statusperecntage": ""
+  },
+
+  {
+    "id": 12,
+
+    "type": "Monthly Sync",
+
+    "pipelineName": "Samas Monthly Sync",
+
+    "timeStamp": "",
+
+    "status": true,
+
+    "statusperecntage": "100"
+  }
 ]

@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+
+    "type": "Records Exported",
+
+    "pipelineName": "Item Group 15",
+
+    "time": "1hr ago",
+
+    "status": "Running",
+
+    "recordsExported": "waiting for completion"
+  },
+
+  {
+    "id": 2,
+
+    "type": "Records Exported",
+
+    "pipelineName": "Item Group 1",
+
+    "time": "2days ago",
+
+    "status": "Success",
+
+    "recordsExported": "1024"
+  },
+
+  {
+    "id": 3,
+
+    "type": "Records Exported",
+
+    "pipelineName": "Item Group 12",
+
+    "time": "2days ago",
+
+    "status": "Failed",
+
+    "recordsExported": "0"
+  }
+]
