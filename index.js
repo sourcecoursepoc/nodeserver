@@ -6,6 +6,8 @@ const pipelineData = require("./pipeline.json");
 const groupData=require("./groupData.json");
 const composepipeline=require("./composepipeline.json");
 const recordData = require("./record.json");
+const pipelineLogContainer1 = require("./pipelineLogContainer1.json")
+const pipelineLogContainer2 = require("./pipelineLogContainer2.json")
 
 // Requiring module
 const express = require("express");
@@ -51,4 +53,15 @@ app.get("/composepipeline",function(req,res,next){
 })
 app.get("/record", function (req, res, next) {
   res.send(recordData);
+});
+
+app.get("/composepipeline", function (req, res, next) {
+  if (req.query.id == 1) {
+   res.send(pipelineLogContainer1);
+  } else if (req.query.id == 2) {
+   res.send(pipelineLogContainer2)
+  }
+  if (!req.query.id) {
+    res.send(composepipeline);
+  }
 });
