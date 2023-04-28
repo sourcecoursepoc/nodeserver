@@ -63,15 +63,36 @@
     "Distributors":[
       {
         "name": "Distributors",
-        "record1": 40000,
-        "record2": 160000
+        "record1": 30000,
+        "record2": 90000
       }
     ],
     "Offers":[
       {
         "name": "Offers",
-        "record1": 40000,
-        "record2": 160000
+        "record1": 30000,
+        "record2": 140000
+      }
+    ],
+    "ItemPrice":[
+      {
+        "name": "Item Price",
+        "record1": 50000,
+        "record2": 150000
+      }
+    ],
+    "ItemMovement":[
+      {
+        "name": "Item Movement",
+        "record1": 20000,
+        "record2": 140000
+      }
+    ],
+    "Itemreturn":[
+      {
+        "name": "Item return",
+        "record1": 100000,
+        "record2": 108000
       }
     ]
   },
