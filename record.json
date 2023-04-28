@@ -9,22 +9,29 @@
     "initialLoad": 36,
     "sync": 32,
     "schemas": [12, 13, 14],
+    "attributes" : 11,
     "RecordsDetails": [
       {
         "migrated": 123321,
-        "pending": 234432
+        "pending": 234432,
+        "initialLoad": 30,
+        "syncs": 40
       }
     ],
     "AttributeDetails": [
       {
         "migrated": 98,
-        "pending": 152
+        "pending": 152,
+        "initialLoad": 35,
+        "syncs": 42
       }
     ],
     "SizeDetails": [
       {
         "migrated": 172,
-        "pending": 234
+        "pending": 234,
+        "initialLoad": 40,
+        "syncs": 42
       }
     ],
     "PipelineExcecution": [
