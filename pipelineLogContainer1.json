@@ -1,0 +1,67 @@
+[
+
+{
+
+"id": 1,
+
+"logs": [
+
+{
+
+"info": "Pipeline Package Created"
+
+},
+
+{
+
+"info": "Pipeline Package Uploaded"
+
+},
+
+{
+
+"info": "Pipeline Execution Started"
+
+},
+
+{
+
+"info": "Connection Established"
+
+},
+
+{
+
+"info": "Data Fetched"
+
+},
+
+{
+
+"info": "Data Transformed"
+
+},
+
+{
+
+"info": "Data Exported"
+
+}
+
+],
+
+"Triggered": "2 days ago",
+
+"Duration": "3.4 hrs",
+
+"InitiatedBy": "Jack Ryan",
+
+"Records": 2000,
+
+"Size": "2kb",
+
+"Status": "Running"
+
+}
+
+]
