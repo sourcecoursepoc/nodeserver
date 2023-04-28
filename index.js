@@ -55,13 +55,13 @@ app.get("/record", function (req, res, next) {
   res.send(recordData);
 });
 
-app.get("/composepipeline", function (req, res, next) {
-  if (req.query.id == 1) {
-   res.send(pipelineLogContainer1);
-  } else if (req.query.id == 2) {
-   res.send(pipelineLogContainer2)
-  }
-  if (!req.query.id) {
-    res.send(composepipeline);
-  }
-});
+// app.get("/composepipeline", function (req, res, next) {
+//   if (req.query.id == 1) {
+//    res.send(pipelineLogContainer1);
+//   } else if (req.query.id == 2) {
+//    res.send(pipelineLogContainer2)
+//   }
+//   if (!req.query.id) {
+//     res.send(composepipeline);
+//   }
+// });
